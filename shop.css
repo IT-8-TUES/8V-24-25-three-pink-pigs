@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a7b5ca;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1em;
+  padding: 2em;
+}
+
+.car-card {
+  width: 32%;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car-card-img {
+  width: 100%;
+  max-height: 15em;
+  object-fit: contain;
+  margin-bottom: 0.75em;
+}
+
+.car-card-h {
+  font-size: 1.25em;
+}
+
+.car-card-p {
+  font-size: 1em;
+  color: #333;
+}
