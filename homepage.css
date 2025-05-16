@@ -5,12 +5,11 @@ body{
 }
 
 .homepage-image {
+    display: flex;
     padding-left:0 ;
     padding-right:0 ;
-    position: absolute;
-    height: 18em;
-    width: 1fr;
-    border-radius: 200px;
+    width: 100%;
+    height: 55em;
 }
 
 .paragraph {
@@ -34,8 +33,10 @@ body{
 .paragraph2 {
     color: black;
     margin-top: 2em;
-    font-size: 60px;
-    font-weight: bold;
+    margin-left: 4em;
+    margin-right: 4em;
+    font-size: 50px;
+    font-weight: bold(500);
     text-align: center;
     position: absolute;
 }
