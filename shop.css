@@ -8,18 +8,26 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  margin-left: 7%;
+  margin-right: 7%;
   gap: 1em;
   padding: 2em;
 }
 
 .car-card {
-  width: 32%;
+  width: 30%;
   min-height: 22em;
   text-align: left;
   box-sizing: border-box;
   padding: 1em;
   border-radius: 0.5em;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.178);
+  background-color: #95aac7b4;
 }
 
 .car-card-img {
