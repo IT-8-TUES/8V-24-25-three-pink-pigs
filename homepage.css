@@ -7,8 +7,9 @@ body{
 .homepage-image {
     padding-left:0 ;
     padding-right:0 ;
-    height: 900px;
-    width: 1910px;
+    position: absolute;
+    height: 18em;
+    width: 1fr;
     border-radius: 200px;
 }
 
