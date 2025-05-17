@@ -6,21 +6,25 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
+  background-color: rgb(240, 248, 255);
   justify-content: center;
   align-items: flex-start;
   align-content: stretch;
-  margin-left: 15%;
-  margin-right: 15%;
-  gap: 1em;
-  padding: 2em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-top: 10em;
+  gap: 10em;
 }
 
 .car-card {
-  background-color: rgb(240, 248, 255);
+  background-color: rgb(208, 233, 255);
   flex: 1 1 30em;
   min-width: 20em;
   max-width: 30em;
   min-height: 22em;
+  padding-top: 1em;
   text-align: left;
   box-sizing: border-box;
   border-radius: 0.5em;
@@ -44,8 +48,15 @@ body {
   min-height: 10em;
   max-height: 15em;
   object-fit: contain;
-  margin-bottom: 0.75em;
   border-color: rgb(0, 0, 0);
+}
+
+.car-card-description {
+  background-color: rgb(174, 214, 255);
+  padding-top: 0.5em;
+  min-height: 5.5em;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
 }
 
 .car-card-h {
@@ -55,4 +66,5 @@ body {
 .car-card-p {
   font-size: 1em;
   color: #333;
+  margin-bottom: 0em;
 }
