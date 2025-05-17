@@ -95,6 +95,8 @@ body{
       opacity: 0.9;
       cursor: pointer;
       transition: 100ms;
+            transform: scale(1.05);
+      transition: transform 0.3s;
     }
 
     .buy-button:active{
@@ -207,6 +209,8 @@ body{
       cursor: pointer;
       opacity: 0.9;
       transition: 100ms;
+            transform: scale(1.05);
+      transition: transform 0.3s;
     }
 
     .contact-seller-button:active{
@@ -234,6 +238,8 @@ body{
       cursor: pointer;
       opacity: 0.9;
       transition: 100ms;
+            transform: scale(1.05);
+      transition: transform 0.3s;
     }
 
     .contact-us-button:active{
