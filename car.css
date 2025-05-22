@@ -17,12 +17,12 @@
     }
 
     .box-image{
-        padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    background-color: rgb(211, 211, 211);
-    height: 33.266875rem;
-    padding-bottom: -1rem;
-    height: 100%;
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      background-color: rgb(211, 211, 211);
+      height: 33.266875rem;
+      padding-bottom: -1rem;
+      height: 100%;
     }
 
     .sigma-main-container{
