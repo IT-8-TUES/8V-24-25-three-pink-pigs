@@ -1,16 +1,16 @@
 body {
   font-family: Arial, sans-serif;
-  background-color:rgb(218, 225, 231);
+  background-color: #121212;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  background-color: #ffffff;
+  background-color: #1e1e1e;
   justify-content: center;
   align-items: flex-start;
   align-content: stretch;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   border-radius: 0.5em;
   margin-left: 7%;
   margin-right: 7%;
@@ -20,7 +20,7 @@ body {
 }
 
 .car-card {
-  background-color: rgb(215, 218, 219);
+  background-color: #2c2c2c;
   flex: 1 1 30em;
   min-width: 20em;
   max-width: 30em;
@@ -29,13 +29,13 @@ body {
   text-align: left;
   box-sizing: border-box;
   border-radius: 0.5em;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: opacity 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.2s, transform 0.2s;
 }
 
 .car-card:hover {
   transform: scale(1.02);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.178);
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
   opacity: 0.85;
   cursor: pointer;
 }
@@ -51,11 +51,11 @@ body {
   min-height: 10em;
   max-height: 15em;
   object-fit: contain;
-  border-color: rgb(0, 0, 0);
+  border: none;
 }
 
 .car-card-description {
-  background-color: rgb(166, 169, 172);
+  background-color: #3a3a3a;
   padding-top: 0.5em;
   min-height: 5.5em;
   border-bottom-left-radius: 0.5em;
@@ -64,10 +64,10 @@ body {
 
 .car-card-h {
   font-size: 1.25em;
+  color: #ffffff;
 }
 
 .car-card-p {
   font-size: 1em;
-  color: #333;
-  margin-bottom: 0em;
+  color: #cccccc;
 }

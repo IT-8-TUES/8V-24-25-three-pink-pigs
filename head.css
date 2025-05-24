@@ -210,8 +210,9 @@
     }
 
     .search-bar:focus {
-    outline: none; 
-    border-color: #afafaf; 
+      outline: none; 
+      border-color: #afafaf; 
+      color: #4b4b4b;
     }
 
       .search-bar:hover {
