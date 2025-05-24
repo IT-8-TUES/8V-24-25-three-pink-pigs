@@ -147,5 +147,21 @@
    </div>
  </div>
   </div>
+  <button id="backToTop" onclick="scrollToTop()">Back to Top</button>
+  <script>
+            //JavaScript for the "Back to Top" button
+            window.onscroll = function () {
+                const button = document.getElementById("backToTop");
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            };
+
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+  </script>
     </body>
 </html>

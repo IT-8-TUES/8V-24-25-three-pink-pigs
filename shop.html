@@ -4,12 +4,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ShopPage</title>
+  <style>
+    #backToTop {
+        position: fixed;
+        bottom: 2em;
+        right: 1em;
+        padding: 10px 15px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: #0183c0;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: opacity 0.3s;
+}
+  </style>
   <link rel="stylesheet" href="shop.css">
   <link rel="stylesheet" href="head.css">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
+
+          <button id="backToTop" onclick="scrollToTop()">Back to Top</button>
+  <script>
+            //JavaScript for the "Back to Top" button
+            window.onscroll = function () {
+                const button = document.getElementById("backToTop");
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            };
+
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+  </script>
     <div class="header">
 
   
@@ -216,24 +249,5 @@
             <p class="text5">Privacy Policy</p>
             <p class="text6">Terms of Service</p>
         </div>
-  <button id="backToTop" onclick="scrollToTop()">Back to Top</button>
-  <script>
-            //JavaScript for the "Back to Top" button Gogo
-            window.onscroll = function () {
-                const button = document.getElementById("backToTop");
-                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                    button.style.display = "block";
-                } else {
-                    button.style.display = "none";
-                }
-            };
-
-            function scrollToTop() {
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            }
-        </script>
 </body>
 </html>

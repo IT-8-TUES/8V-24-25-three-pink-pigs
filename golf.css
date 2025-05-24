@@ -2,6 +2,22 @@
     font-family: 'Arial', sans-serif;
     color: black;
 }
+
+#backToTop {
+        position: fixed;
+        bottom: 2em;
+        right: 1em;
+        padding: 10px 15px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: #0183c0;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: opacity 0.3s;
+}
+
 .flex{
       display: flex;
       flex-direction: column;
