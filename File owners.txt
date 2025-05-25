@@ -1,0 +1,34 @@
+Boris:
+-header - css and html
+-car.css (един css фаил за всички листинг page-ове)
+-car2.html and css (най-първата)
+-log in - css and html
+-contact us - css and html
+-contact seller - css and html
+-contact-success - css and html
+-audi-rs7.html
+-filter.js
+-linking buttons with web pages
+
+
+Gogo:
+-About/Homepage - css and html
+-html for the cars:
+	car.html
+	ford.html
+	opel.html
+	skoda.html
+	toyota.html
+	porsche.html
+-footer - css and html
+-linking buttons with web pages
+-js function for back to top
+
+
+Dimitur:
+-shop.html
+-shop.css
+-carousel.js
+-mercedes.html
+-cybertruck.html
+-karuca.html
