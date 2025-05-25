@@ -1,7 +1,6 @@
 .body{
     font-family: 'Arial', sans-serif;
-    color: white;
-    display: flex;
+    color: black;
 }
 
 #backToTop {
@@ -33,9 +32,10 @@
       border-top: solid 2px rgb(189, 189, 189);
     }
 
-    .text{
+    .text10{
         font-size: 1.5rem;
         margin-top: 0.5em;
+        color: black;
     }
 
     .button{
