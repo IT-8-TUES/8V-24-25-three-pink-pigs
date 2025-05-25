@@ -9,7 +9,6 @@
       align-items: center;
       justify-content: center;
       margin-top: 4rem;
-      margin-bottom: 4rem;
       z-index: 1;
       background-color:rgb(218, 225, 231);
     }
@@ -142,6 +141,7 @@
 
     .car-info{
       width: 51.5rem;
+      padding-bottom:2rem ;
     }
 
     .car-name{
