@@ -21,7 +21,7 @@ body {
 }
 
 .car-card {
-  background-color: rgb(218, 225, 231);;
+  background-color: rgb(218, 225, 231);
   flex: 1 1 30em;
   min-width: 20em;
   max-width: 30em;
