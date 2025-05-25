@@ -115,6 +115,10 @@
         font-weight: bolder;
     }
 
+    .social-tags {
+        margin-bottom: 0.5em;
+    }
+
     .footer2{
         display: flex;
         flex-direction: row;
