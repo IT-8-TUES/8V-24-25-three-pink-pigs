@@ -1,6 +1,5 @@
 .body{
     font-family: 'Arial', sans-serif;
-    color: white;
     display: flex;
 }
 
@@ -20,6 +19,7 @@
 }
 
 .flex{
+      display: block;
       display: flex;
       flex-direction: column;
       align-items: center;

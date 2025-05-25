@@ -1,49 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ShopPage</title>
-  <style>
-    #backToTop {
-        position: fixed;
-        bottom: 2em;
-        right: 1em;
-        padding: 10px 15px;
-        font-size: 16px;
-        border: none;
-        border-radius: 5px;
-        background-color: #0183c0;
-        color: white;
-        cursor: pointer;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        transition: opacity 0.3s;
-}
-  </style>
-  <link rel="stylesheet" href="shop.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> GMB's cars - Login</title>
   <link rel="stylesheet" href="head.css">
+  <link rel="stylesheet" href="login.css">
   <link rel="stylesheet" href="footer.css">
-  <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
-
-          <button id="backToTop" onclick="scrollToTop()">Back to Top</button>
-  <script>
-            //JavaScript for the "Back to Top" button
-            window.onscroll = function () {
-                const button = document.getElementById("backToTop");
-                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                    button.style.display = "block";
-                } else {
-                    button.style.display = "none";
-                }
-            };
-
-            function scrollToTop() {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
-  </script>
-    <div class="header">
+  <div>
+<div class="header">
 
   
     <div class="elements-in-header-felx">
@@ -102,112 +69,40 @@
     </div>
    </div>
   </div>
-<div class="homepage">
-    <h1 class="title">Wellcome to GBM</h1>
-    <p class="text">Here you can find the best cars for you.</p>
-    <p class="about-us">
-        About Us
-    </p>   
-    <p class="paragraph2">
-        GBM is a website where you can find the best cars for you.
-        We have cars from different brands and models.
-        Whether you are looking for a new or used car, we have something for everyone.
-    </p>
-    <h2 class="available-cars">Available Cars</h2>
 </div>
-  <div class="container">
-    <div class="car-card">
-      <img class="car-card-img" src="images/Mercedes-Benz(1982).png">
-      <div class="car-card-description">
-        <h class="car-card-h">Mercedes-Benz C-Class W201 (1982)</h>
-        <p class="car-card-p">$15,000.00 (used)</p>
-      </div>
+
+<div class="login-body">
+<div class="whole-container">
+  <div class="login-flex">
+    <div class="div-login-text">
+    <p class="login-text">
+      Login to GMB's cars
+    </p>
     </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/cyberttruck2.png">
-      <div class="car-card-description">
-        <h class="car-card-h">Tesla Cybertruck (AWD)</h>
-        <p class="car-card-p">$100,000.00</p>
-      </div>
+    <div class="info">
+      <p class="textabovebox">Email adress</p>
+      <input type="text" placeholder="Enter your email..." class="data-box"/>
     </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/car2.jpg">
-      <div class="car-card-description">
-        <h class="car-card-h">BMW e60 series 5 520d</h>
-        <p class="car-card-p">11,750$ (used)</p>
-      </div>
+    <div class="info">
+      <p class="textabovebox">Password</p>
+      <input type="text" placeholder="Enter your email..." class="data-box"/>
     </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/camaro.png">
-      <div class="car-card-description">
-        <h class="car-card-h">Chevrolet Camaro zl1 2024</h>
-        <p class="car-card-p">$75,395</p>
-      </div>
-    </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/Golf.png">
-      <div class="car-card-description">
-        <h class="car-card-h">Volkswagen Golf R</h>
-        <p class="car-card-p">$47,924 </p>
-      </div>
-    </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/porsche.png">
-      <div class="car-card-description">
-        <h class="car-card-h">Porsche Cayene Turbo GT 2023</h>
-        <p class="car-card-p">€147,000 </p>
-      </div>
-    </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/rs7.jpg">
-      <div class="car-card-description">
-        <h class="car-card-h">Audi Rs7</h>
-        <p class="car-card-p">€ 59,990 (used) </p>
-      </div>
-    </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/skoda.png">
-      <div class="car-card-description">
-        <h class="car-card-h">Skoda Kamiq 2024</h>
-        <p class="car-card-p">$25,000</p>
-      </div>
-    </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/toyota 2.png">
-      <div class="car-card-description">
-        <h class="car-card-h"> Toyota C-HR</h>
-        <p class="car-card-p">$33,000 </p>
-      </div>
-    </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/ford.png">
-      <div class="car-card-description">
-        <h class="car-card-h">Ford Focus ST</h>
-        <p class="car-card-p">$34,000 </p>
-      </div>
-    </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/opel.png">
-      <div class="car-card-description">
-        <h class="car-card-h">Opel Astra</h>
-        <p class="car-card-p">$24,500 </p>
-      </div>
-    </div>
-    <div class="car-card">
-      <img class="car-card-img" src="images/karuca.png">
-      <div class="car-card-description">
-        <h class="car-card-h">Karuca Express</h>
-        <p class="car-card-p">$1,000 (used) </p>
-      </div>
+    <div class="create-the-account">
+    <button class="login-button-page">
+      Login
+    </button>
+    <p class="signin-text">
+      Don't have an account? <a href="signin.html" class="create-account">Create an account</a>
+    </p>
     </div>
   </div>
+</div>
+</div>
 
 
 
 
-
-
-  <div class="flex">
+<div class="flex">
             <h1 class="title">Want to purchase</h1>
             <p class="text">If you are considered in buying a car we can help you.</p>
             <button class="button">Sign in</button>
@@ -255,28 +150,29 @@
             <p class="text5">Privacy Policy</p>
             <p class="text6">Terms of Service</p>
         </div>
+          <button id="backToTop" onclick="scrollToTop()">Back to Top</button>
+  <script>
+            //JavaScript for the "Back to Top" button Gogo
+            window.onscroll = function () {
+                const button = document.getElementById("backToTop");
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            };
+
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+        </script>
 
 
 
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const searchInput = document.querySelector(".search-bar");
-    const carCards = document.querySelectorAll(".car-card");
 
-    searchInput.addEventListener("input", () => {
-      const query = searchInput.value.trim().toLowerCase();
-
-      carCards.forEach((card) => {
-        const title = card.querySelector(".car-card-h").textContent.toLowerCase();
-        card.style.display = title.includes(query) ? "block" : "none";
-      });
-    });
-  });
-</script>
-
-  
-
-    
 </body>
 </html>

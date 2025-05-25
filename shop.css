@@ -87,6 +87,18 @@ body {
   color: #cccccc;
 }
 
+.car-card {
+  transition: opacity 0.2s ease;
+}
+.car-card[style*="display: none"] {
+  opacity: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
 #backToTop {
         position: fixed;
         margin-bottom: 2em;
