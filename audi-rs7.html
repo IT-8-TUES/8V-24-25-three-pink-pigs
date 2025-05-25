@@ -82,26 +82,17 @@
  <div style="margin-top: 6rem; font-family: arial;" class="flex">
   <div class="sigma-main-container">
    <div class="main-container">
-    <div style="
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    background-color: rgb(211, 211, 211);
-    height: 33.266875rem;
-    padding-bottom: -1rem;">
-
-    <img src="images/rs7.jpg" alt="Car Image" class="box-image">
-    </div>
-    <div class="option-buttons-flex">
-     <button class="option-button">
-     </button>
-     <button class="option-button">
-     </button>
-     <button class="option-button">
-     </button>
-     <button class="option-button">
-     </button>
-     <button class="option-button">
-     </button>
+      <div class="carousel">
+      <div class="carousel-track">
+        <img src="images/rs7.jpg" class="carousel-item">
+        <img src="images/rs72.jpg" class="carousel-item">
+        <img src="images/rs73.jpg" class="carousel-item">
+        <img src="images/rz7-interior.jpg" class="carousel-item">
+      </div>
+      <button class="carousel-button prev">‹</button>
+      <button class="carousel-button next">›</button>
+      <div class="carousel-dots"></div>
+      </div>
     </div>
       <div class="car-info">
         <div class="price-and-model">
@@ -253,7 +244,7 @@
         <p class="questions-desc">If you have any questions you can contact the seller or you can contact us.</p>
         <p class="questions-desc">Thank you for using our website!</p>
         <div style="margin-top: 2rem;">
-        <button class="contact-seller-button">
+        <button class="contact-seller-button" onclick="location.href='contact-seller.html'">
           Contact seller
         </button>
         <button class="contact-us-button">
