@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="car.css">
   <link rel="stylesheet" href="head.css">
-  <title>Audi Rs7</title>
+  <link rel="stylesheet" href="footer.css">
+  <title>GBM's cars - Audi Rs7</title>
 </head>
 <body class="body">
 
@@ -39,11 +40,11 @@
 
       <div class="elements-in-header-felx">
       
-        <button class="shop-button">Shop</button>
+        <button class="shop-button" onclick="location.replace('shop.html'); return false;">Shop</button>
       
-        <button class="about-button">About </button>
+        <button class="about-button" onclick="location.replace('homepage.html'); return false;">About </button>
       
-        <button class="contact-button">Contact</button>
+        <button class="contact-button" onclick="location.replace('contact-us.html'); return false;">Contact</button>
 
       </div>
 
@@ -65,7 +66,9 @@
         </div>
       </div>
     <div class="elements-in-header-felx">
-      <button class="login-button">Login</button>
+
+      <button class="login-button" onclick="location.replace('login.html'); return false;">Log in</button>
+
     </div>
    </div>
   </div>
@@ -77,11 +80,10 @@
  <div style="margin-top: 6rem; font-family: arial;" class="flex">
   <div class="sigma-main-container">
    <div class="main-container">
-<<<<<<< HEAD
       <div class="carousel">
       <div class="carousel-track">
         <img src="images/rs7.jpg" class="carousel-item">
-        <img src="images/rs72.jpg" class="carousel-item">
+        <img src="images/rs7-true.jpg" class="carousel-item">
         <img src="images/rs73.jpg" class="carousel-item">
         <img src="images/rz7-interior.jpg" class="carousel-item">
       </div>
@@ -89,16 +91,6 @@
       <button class="carousel-button next">›</button>
       <div class="carousel-dots"></div>
       </div>
-=======
-    <div style="
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    background-color: rgb(211, 211, 211);
-    height: 33.266875rem;
-    padding-bottom: -1rem;">
-
-    <img src="images/rs7.jpg" alt="Car Image" class="box-image">
->>>>>>> 5a2dd726f16207bb14807dfa9e830276e3c75620
     </div>
       <div class="car-info">
         <div class="price-and-model">
@@ -119,7 +111,7 @@
         </p>
         </div>
         <div class="div-buy-button">
-          <button class="buy-button">
+          <button class="buy-button"onclick="location.href='contact-seller.html'">
             Buy
           </button>
         </div>
@@ -253,7 +245,7 @@
         <button class="contact-seller-button" onclick="location.href='contact-seller.html'">
           Contact seller
         </button>
-        <button class="contact-us-button">
+        <button class="contact-us-button" onclick="location.href='contact-us.html'">
           Contact us
         </button>
         </div>
@@ -268,8 +260,8 @@
 <div class="flex1">
             <h1 class="title1">Want to purchase</h1>
             <p class="text10">If you are considered in buying a car we can help you.</p>
-            <button class="button">Sign in</button>
-        </div>
+            <button class="button" onclick="location.href='login.html'">Log In</button>
+         </div>
         <div class="footer">
             <div class="text2">
             <p class="GBM">GBM</p>
